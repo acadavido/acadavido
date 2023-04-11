@@ -19,7 +19,13 @@ const About = () => {
                     <p>Hi I'm Andrea, nice to meet you. Please take a look  around</p>
                 </div>    
                 <div> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aspernatur eaque tenetur iste rem ut, impedit, ducimus exercitationem enim corporis sint explicabo vitae reiciendis placeat harum nobis velit sequi quibusdam?</p>
+                    <p>
+                        I'm electrical engineer looking for opportunities to participate in software development projects. With knowledge in frontend development using React, Javascript, HTML and CSS. 
+                    </p><br />
+                    <p>
+                        Interested in acquiring knowledge and experience that contribute to my professional training and apply the learning in a real environment.
+                    </p> 
+
                 </div>
             </div>            
             
