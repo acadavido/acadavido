@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/logo-ac.png'
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -11,11 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav) ;
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        <img src={Logo} alt="Logo image" style={{width:'60px'}}/>
-      </div>
-      
+    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300'>
       {/* Menu */}
       <ul className='hidden md:flex'>
         <li>
